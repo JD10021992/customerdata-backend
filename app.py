@@ -8,7 +8,7 @@ from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 from linkedin_api import Linkedin
 
-app = Flask(_name_)
+app = Flask(__name__)
 
 # Set your credentials
 OPENAI_API_KEY = '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'
